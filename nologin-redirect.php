@@ -1,14 +1,10 @@
 <?php
-/**
- * @package no-login-redirect
- * @version 1.1.3
-**/
 /*
 Plugin Name:no-login-redirect
 Plugin URI:
 Description:非ログイン時、ログイン画面にリダイレクトさせる
 Author YAT,Chiaki
-Version:1.0
+Version:1.1.3
 */
 function nlr_theme_name_script(){
 	wp_enqueue_style( 'nologinredirect' , plugins_url('nologin-redirect-style.css', __FILE__ ) );
